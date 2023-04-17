@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Don't Spoil the Life Series",
+  "description": "Censor thumbnails and titles for videos in the Life Series created by Grian",
+  "version": "1.0.0",
+  "icons": {
+    "48": "icons/48.png"
+  },
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["*://*.youtube.com/*"],
+    "run_at": "document_start"
+  }]  
+}
