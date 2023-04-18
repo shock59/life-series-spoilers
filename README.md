@@ -27,7 +27,6 @@ After:
 
 - Support videos from other creators
 - Don't censor videos past a certain date
-
 - Censor the featured video on channel pages
 - Censor anywhere else I forgot to implement
 - Remove the thumbnail entirely, don't just blur
@@ -37,7 +36,9 @@ After:
 
 ## Installation
 
-Currently the extension hasn't been submitted to either the Chrome Web Store or addons.mozilla.org, so you need to manually install it by downloading the version for your browser from the [Releases page](https://github.com/shock59/life-series-spoilers/releases/) and dragging and dropping it into the browser (on Chromium based browsers like Chrome and Edge you will need to be on the chrome://extensions page).
+If you're on Firefox, you can download the extension from [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/dontspoilthelifeseries/). If you're on a Chromium based browser (like Chrome or Edge) or you don't want to use addons.mozilla.org, you caninstall it manually using the instructions below.
+
+Currently the extension hasn't been submitted to either the Chrome Web Store or addons.mozilla.org, so you need to manually install it by downloading the version for your browser from the [Releases page](https://github.com/shock59/life-series-spoilers/releases/) and dragging and dropping it into the browser (on Chromium based browsers you will need to be on the chrome://extensions page).
 
 On Firefox, you must be using Developer Edition or Nightly and set `xpinstall.signatures.required` to `false` in about:config as the extension is unsigned. You will get a warning that it might be malicious, if you want to be completely sure that it is safe you can have a look at the code in this repository.
 
